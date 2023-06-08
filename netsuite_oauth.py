@@ -2,7 +2,7 @@ import requests
 from requests_oauthlib import OAuth1
 
 
-class NetSuiteOauth:
+class NetsuiteOauth:
     def __init__(self, url, method, consumer_key, consumer_secret, token_id, token_secret, account):
         self.url = url
         self.method = method
