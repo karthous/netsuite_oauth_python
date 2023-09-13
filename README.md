@@ -8,7 +8,7 @@ consumerSecret = '123456789012345678901234567890123456789012345678901234567890ab
 tokenId = '123456789012345678901234567890123456789012345678901234567890abcd'
 tokenSecret = '123456789012345678901234567890123456789012345678901234567890abcd'
 account = '1234567'
-print(NetsuiteOauth(url, method, consumerKey, consumerSecret, tokenId, tokenSecret, account).get().content)</code></pre>
+print(NetsuiteOauth(url, consumerKey, consumerSecret, tokenId, tokenSecret, account).get().content)</code></pre>
 
 ## Maintainers
 
