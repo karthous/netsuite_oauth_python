@@ -3,7 +3,6 @@ A python library implements OAuth1 to enable users to connect to Netsuite's REST
 
 ## Usage
 <pre><code>url = 'https://1234567.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=1234&deploy=1&params=value'
-method = 'GET'
 consumerKey = '123456789012345678901234567890123456789012345678901234567890abcd'
 consumerSecret = '123456789012345678901234567890123456789012345678901234567890abcd'
 tokenId = '123456789012345678901234567890123456789012345678901234567890abcd'
