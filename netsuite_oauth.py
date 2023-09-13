@@ -3,9 +3,8 @@ from requests_oauthlib import OAuth1
 
 
 class NetsuiteOauth:
-    def __init__(self, url, method, consumer_key, consumer_secret, token_id, token_secret, account):
+    def __init__(self, url, consumer_key, consumer_secret, token_id, token_secret, account):
         self.url = url
-        self.method = method
         self.consumer_key = consumer_key
         self.consumer_secret = consumer_secret
         self.token_id = token_id
